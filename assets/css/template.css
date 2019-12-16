@@ -1,0 +1,53 @@
+/* Menu Horizontal */
+#nav, #divSair  {
+    background-color: #140086 !important;
+    color: #FFF!important;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after, .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after {
+    background-color: #FFF !important;
+}
+
+.navbar-brand , #navbarDropdown, #divSair > a{
+    color: #FFF !important;
+}
+
+.navbar-brand:hover, #navbarDropdown:hover{
+    color: #FFF !important;
+}
+#divSair > a:hover{
+    color: #FFF !important;
+    background-color: #140086;
+}
+
+/* menu Horizontal */
+
+#sidebar-wrapper {
+    background-color: #140086 !important;
+}
+
+#sidebar-wrapper >ul>li.nav-item a.nav-link{
+    color: #FFF !important;
+}
+
+#sidebar-wrapper >ul>li.nav-item:hover{
+    background-color: #0c0755;
+}
+
+#sidebar-wrapper >ul>li>ul> li.nav-item a.nav-link {
+    background-color: #140086;
+    color: #FFF !important;
+}
+
+#sidebar-wrapper >ul>li>ul> li.nav-item a.nav-link:hover{
+    background-color: #0c0755;
+}
+
+/* Rodapé */
+footer {
+    background-color: #140086 !important;
+    color: #FFF !important;
+}
+footer > div.text-muted , #contatoLeme {
+    color: #FFF !important;
+}
