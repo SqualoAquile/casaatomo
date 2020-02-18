@@ -13,70 +13,72 @@
          "link" => "/#",
          "filhos" => [
             [
-               "text" => "Veículos",
+               "text" => "Clientes",
                "icon" => "fas fa-handshake",
                "permissao" => "clientes_ver",
                "link" => "/clientes"
             ],
             [
-               "text" => "Condutores",
+               "text" => "Atividades",
                "icon" => "fas fa-users",
-               "permissao" => "fornecedores_ver",
-               "link" => "/fornecedores"
-            ],
-            [
-               "text" => "Ferramentas",
-               "icon" => "fas fa-users",
-               "permissao" => "funcionarios_ver",
-               "link" => "/funcionarios"
-            ],
-            [
-               "text" => "Itens CheckList Carros",
-               "icon" => "fas fa-users",
-               "permissao" => "servicos_ver",
-               "link" => "/servicos"
-            ],
-            [
-               "text" => "Produtos",
-               "icon" => "fas fa-boxes",
-               "permissao" => "produtos_ver",
-               "link" => "/produtos"
-            ]
-         ]
-      ],
-      [
-         "text" => "Financeiro",
-         "icon" => "fas fa-money-bill-alt",
-         "permissao" => "%",
-         "link" => "/#",
-         "filhos" => [
-            [
-               "text" => "Administradoras de Cartão",
-               "icon" => "fas fa-credit-card",
-               "permissao" => "administradoras_ver",
-               "link" => "/administradoras"
-            ],
-            [
-               "text" => "Lançamentos de Caixa",
-               "icon" => "fas fa-cart-plus",
-               "permissao" => "fluxocaixa_add",
-               "link" => "/fluxocaixa/adicionar"
-            ],
-            [
-               "text" => "Controle de Caixa",
-               "icon" => "fas fa-calculator",
-               "permissao" => "fluxocaixa_ver",
-               "link" => "/fluxocaixa"
+               "permissao" => "atividades_ver",
+               "link" => "/atividades"
             ]
             // ,
-      //       [
-      //          "text" => "Controle de Saldos",
-      //          "icon" => "fas fa-chart-line",
-      //          "permissao" => "controlesaldos_ver",
-      //          "link" => "/controlesaldos"
-      //       ]
+            // [
+            //    "text" => "Ferramentas",
+            //    "icon" => "fas fa-users",
+            //    "permissao" => "funcionarios_ver",
+            //    "link" => "/funcionarios"
+            // ],
+            // [
+            //    "text" => "Itens CheckList Carros",
+            //    "icon" => "fas fa-users",
+            //    "permissao" => "servicos_ver",
+            //    "link" => "/servicos"
+            // ],
+            // [
+            //    "text" => "Produtos",
+            //    "icon" => "fas fa-boxes",
+            //    "permissao" => "produtos_ver",
+            //    "link" => "/produtos"
+            // ]
          ]
-      ],
+      ]
+      ,
+      // [
+      //    "text" => "Financeiro",
+      //    "icon" => "fas fa-money-bill-alt",
+      //    "permissao" => "%",
+      //    "link" => "/#",
+      //    "filhos" => [
+      //       [
+      //          "text" => "Administradoras de Cartão",
+      //          "icon" => "fas fa-credit-card",
+      //          "permissao" => "administradoras_ver",
+      //          "link" => "/administradoras"
+      //       ],
+      //       [
+      //          "text" => "Lançamentos de Caixa",
+      //          "icon" => "fas fa-cart-plus",
+      //          "permissao" => "fluxocaixa_add",
+      //          "link" => "/fluxocaixa/adicionar"
+      //       ],
+      //       [
+      //          "text" => "Controle de Caixa",
+      //          "icon" => "fas fa-calculator",
+      //          "permissao" => "fluxocaixa_ver",
+      //          "link" => "/fluxocaixa"
+      //       ]
+      //       // ,
+      // //       [
+      // //          "text" => "Controle de Saldos",
+      // //          "icon" => "fas fa-chart-line",
+      // //          "permissao" => "controlesaldos_ver",
+      // //          "link" => "/controlesaldos"
+      // //       ]
+      //    ]
+      // ],
       // [
       //    "text" => "Relatórios",
       //    "icon" => "fas fa-table",
@@ -122,7 +124,7 @@
                "link" => "/parametros"
             ],            
          ]
-         ]
+      ]
          // ,[
          //    "text" => "Desenvolvimento",
          //    "icon" => "fas fa-laptop-code",

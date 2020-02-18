@@ -21,6 +21,7 @@ class homeController extends controller{
       $dados["colunas"] = $sharedFinanceiro->nomeDasColunas();
       $dados["meta"] = $relatorioFinanceiro->meta();
       $this->loadTemplate('home', $dados);
+      // $this->loadTemplate('negocios', $dados);
     }
 
 }   

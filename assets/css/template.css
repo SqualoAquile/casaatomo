@@ -13,10 +13,10 @@
 }
 
 .navbar-brand:hover, #navbarDropdown:hover{
-    color: #FFF !important;
+    color: #2c00f1 !important;
 }
 #divSair > a:hover{
-    color: #FFF !important;
+    color: #2c00f1 !important;
     background-color: #140086;
 }
 
